@@ -31,6 +31,7 @@ function Get-ComputerStats {
             AverageCpu = $avg
             MemoryUsage = $mem
             PercentFreeSpace = $free
+            CurrentDate = date
         }
     }
   }
